@@ -1,0 +1,11 @@
+    <div class="images-grid">
+      <div class="images-grid__image">
+        <img src="images/dog-image-1.jpg" alt="" />
+      </div>
+      <div class="images-grid__image">
+        <img src="images/dog-image-2.jpg" alt="" />
+      </div>
+      <div class="images-grid__image">
+        <img src="images/dog-image-3.jpg" alt="" />
+      </div>
+    </div>
