@@ -26,64 +26,103 @@
     <div class="right-block">
       <div class="side-block side-block-right"></div>
     </div>
-    <div class="images-grid">
-      <div class="images-grid__image">
-        <img src="images/dog-image-1.jpg" alt="" />
-      </div>
-      <div class="images-grid__image">
-        <img src="images/dog-image-2.jpg" alt="" />
-      </div>
-      <div class="images-grid__image">
-        <img src="images/dog-image-3.jpg" alt="" />
-      </div>
-    </div>
-    <div class="incoming-text text">
-      <p>That sounds great. I’d be happy to discuss more.</p>
-    </div>
-    <div class="incoming-text text">
-      <p>Could you send over some pictures of your dog, please?</p>
-    </div>
-    <div class="incoming-text text">
-      <p>
-        She looks so happy! The time we discussed works. How long shall I take
-        her out for?
-      </p>
-    </div>
-    <div class="input-group">
-      <input type="text" placeholder="Type a message..." />
-      <div class="input-group__icon">
-        <p class="content">></p>
-      </div>
-    </div>
-    <div class="outgoing-text text">
-      <p>Here are a few pictures. She’s a happy girl!</p>
-    </div>
-    <div class="outgoing-text text">
-      <p>Can you make it?</p>
-    </div>
-    <div class="incoming-text text poll">
-      <div class="poll__choice">
-        <input type="radio" name="walk-30" id="walk-30" />
-        <label for="walk-30">30 minute walk</label>
-      </div>
-      <div>
-        <p class="poll__price">$29</p>
-      </div>
-    </div>
-    <div class="incoming-text text poll">
-      <div class="poll__choice">
-        <input type="radio" name="walk-60" id="walk-60" />
-        <label for="walk-60">1 hour walk</label>
-      </div>
-      <div>
-        <p class="poll__price">$49</p>
-      </div>
-    </div>
 
-    <!-- Samuel Green Available to Walk 
-    Type a message… Simple booking Stay in touch with our dog
-    walkers through the chat interface. This makes it easy to discuss
-    arrangements and make bookings. Once the walk has been completed you can
-    rate your walker and book again all through the chat. -->
+    <section class="main">
+      <div class="mobile">
+        <section class="top-section">
+          <div class="top">
+            <p class="top__left-icon"><</p>
+            <div class="top__header">
+              <img class="pic" src="images/avatar.jpg" alt="" />
+              <div class="pic-content">
+                <p class="name">
+                  Samuel Green <span class="info">Available to Walk</span>
+                </p>
+              </div>
+            </div>
+            <div class="top__right-icon">
+              <p>...</p>
+            </div>
+          </div>
+        </section>
+        <div class="notch"></div>
+        <section class="left-one">
+          <div class="incoming-text text">
+            <p>That sounds great. I’d be happy to discuss more.</p>
+          </div>
+          <div class="incoming-text text">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
+        </section>
+        <section class="right-one">
+          <div class="images">
+            <div class="images-grid">
+              <div class="images-grid__image">
+                <img src="images/dog-image-1.jpg" alt="" />
+              </div>
+              <div class="images-grid__image">
+                <img src="images/dog-image-2.jpg" alt="" />
+              </div>
+              <div class="images-grid__image">
+                <img src="images/dog-image-3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="messages">
+            <div class="outgoing-text">
+              <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+            <div class="outgoing-text small">
+              <p>Can you make it?</p>
+            </div>
+          </div>
+        </section>
+        <section class="left-one">
+          <div class="incoming-text text incoming-two">
+            <p>
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+          <div class="incoming-text text poll">
+            <div class="poll__choice">
+              <div class="radio" id="walk-30"></div>
+              <label for="walk-30">30 minute walk</label>
+            </div>
+            <div>
+              <p class="poll__price">$29</p>
+            </div>
+          </div>
+          <div class="incoming-text text poll">
+            <div class="poll__choice">
+              <div class="radio" id="walk-60"></div>
+              <label for="walk-60">1 hour walk</label>
+            </div>
+            <div>
+              <p class="poll__price">$49</p>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="input-group__text">
+              <p class="placeholder">Type a message…</p>
+            </div>
+            <div class="input-group__icon">
+              <p class="content">></p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="about">
+        <div class="matter">
+          <h1 class="matter__heading">Simple booking</h1>
+          <p class="matter__content">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
