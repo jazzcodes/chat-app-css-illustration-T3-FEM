@@ -379,6 +379,12 @@ body{
 }
 
 /* Matter */
+
+.matter{
+    position: relative;
+    top:10.5rem;
+}
+
  .matter__heading{
     color:hsl(271, 36%, 24%);
     font-weight: 500;
@@ -428,6 +434,8 @@ body{
     box-shadow: 0 0 4rem 0 rgb(187, 182, 182);
     background-color: hsl(270, 20%, 96%);
     margin-right: 0;
+    position: relative;
+    top: 6rem;
 
 }
 
@@ -485,5 +493,5 @@ body{
 
 .incoming-two{
     margin-top:2.5rem;
-    height:6rem;
+    height:6.5rem;
 }
